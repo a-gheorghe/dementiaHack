@@ -1,0 +1,19 @@
+{
+  "name": "dementiahack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msohail07/dementiaHack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msohail07/dementiaHack/issues"
+  },
+  "homepage": "https://github.com/msohail07/dementiaHack#readme"
+}
