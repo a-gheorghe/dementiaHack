@@ -1,2 +1,2 @@
 def test():
-	return 10
+	return 15
