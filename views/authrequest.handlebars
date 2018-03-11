@@ -1,0 +1,30 @@
+
+
+
+    <div class="wrapper">
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="#">Self Questionnaire</a></li>
+          <li><a href="/cognition">SAGE: Cognition Test</a></li>
+          <li><a href="/genome">Check Genetic Risk</a></li>
+        </ul>
+      </nav>
+
+      <!-- Top Container -->
+      <section class="top-container">
+        <header class="showcase">
+          {{#if authorize_url}}
+            <a href="{{authorize_url}}" class="btn btn-default">Connect with Genome-Link</a>
+          {{/if}}
+        </header>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p> BrainSafe &copy; 2018 </p>
+      </footer>
+
+    </div>
+    <!-- wrapper ends -->

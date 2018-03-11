@@ -1,9 +1,31 @@
-<form action="/login" method="post">
-  <input class="input-field" type="text" name="username" placeholder="username"><br>
-  <input class="input-field" type="password" name="password" placeholder="password"><br><br>
-  <input type="submit" class="login-btn btn" value="Login"> <br>
-</form>
+ <div class="wrapper">
+   <!-- Navigation -->
+   <nav class="main-nav">
+     <ul>
+       <li><a href="/">About</a></li>
+       <li><a href="/quiz">Self Questionnaire</a></li>
+       <li><a href="/cognition">SAGE: Cognition Test</a></li>
+       <li><a href="/genome">Check Genetic Risk</a></li>
+     </ul>
+   </nav>
 
-<a href="/register"> No account? Click here to register</a>
+   <!-- Top Container -->
+   <section class="top-container">
+     <header class="showcase">
+       <form action="/login" method="post">
+         <h1> Login </h1>
+         <input class="input-field" type="text" name="username" placeholder="username"><br>
+         <input class="input-field" type="password" name="password" placeholder="password"><br><br>
+         <input type="submit" class="login-btn btn" value="Login"> <br>
+       </form>
+       <a href="/register"> No account? Click here to register</a>
+     </header>
+   </section>
 
- {{ riskAge }}
+   <!-- Footer -->
+   <footer>
+     <p> BrainSafe &copy; 2018 </p>
+   </footer>
+
+ </div>
+ <!-- wrapper ends -->

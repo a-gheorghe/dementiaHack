@@ -1,0 +1,23 @@
+<p> Here are your results! </p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Score</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each reports}}
+    <tr>
+      <td>{{this._data.phenotype.display_name}}</td>
+      <td>{{this._data.summary.score}}</td>
+      <td> {{this._data.summary.text}} </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+<br> <br>
+
+<a href="/results" class="results-btn"> View BrainSafe Score </a>

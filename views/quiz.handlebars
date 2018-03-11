@@ -1,13 +1,37 @@
-<form action="/quiz" method="post">
-  <label> Age: </label> <input class="input-field" type="text" name="age" placeholder="age"><br>
-  <label> Do you have a first degree relative with dementia? </label> <input class="input-field" type="text" name="degreeone" placeholder="Y/N"><br>
-  <label> Do you have a second degree relative with dementia? </label> <input class="input-field" type="text" name="degreetwo" placeholder="Y/N"><br>
-  <label> How many cigarettes do you smoke daily? </label> <input class="input-field" type="text" name="age" placeholder="Number of cigarettes"><br>
-  <label> How many portions sugary snacks (donuts, cake, etc) do you eat each day?  </label> <input class="input-field" type="text" name="food" placeholder="Y/N"><br>
-  <label> How many hours of aerobic exercise do you  per week </label> <input class="input-field" type="text" name="food" placeholder="Y/N"><br>
+<h1> Self-Administered Gerocognitive Exam (SAGE) </h1>
 
+<div class="wrapper">
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="/">About</a></li>
+      <li><a href="#">Self Questionnaire</a></li>
+      <li><a href="/cognition">SAGE: Cognition Test</a></li>
+      <li><a href="/genome">Check Genetic Risk</a></li>
+    </ul>
+  </nav>
 
+  <!-- Top Container -->
+  <section class="top-container">
+    <header class="showcase">
+      <h1> Personal History Questionnaire </h1>
+      <form action="/quiz" method="post">
+        <label> Age: </label> <input class="input-field" type="text" name="age" placeholder="age"><br>
+        <label> Do you have a first degree relative with dementia? </label> <input class="input-field" type="text" name="degreeOne" placeholder="Y/N"><br>
+        <label> Do you have a second degree relative with dementia? </label> <input class="input-field" type="text" name="degreeTwo" placeholder="Y/N"><br>
+        <label> How many cigarettes do you smoke daily? </label> <input class="input-field" type="text" name="cigarettes" placeholder="Number of cigarettes"><br>
+        <label> How many portions sugary snacks (donuts, cake, etc) do you eat each day?  </label> <input class="input-field" type="text" name="food" placeholder="Y/N"><br>
+        <label> How many hours of aerobic exercise do you  per week </label> <input class="input-field" type="text" name="exercise" placeholder=""><br>
+        <input type="submit" value="Submit"> <br>
+      </form>
 
+    </header>
+  </section>
 
-  <input type="submit" value="Submit"> <br>
-</form>
+  <!-- Footer -->
+  <footer>
+    <p> BrainSafe &copy; 2018 </p>
+  </footer>
+
+</div>
+<!-- wrapper ends -->
